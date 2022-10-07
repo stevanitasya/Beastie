@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".profilepr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3C6C8">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo"
+        android:layout_marginStart="-40dp"
+        />
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/ppp" />
+
+    <ImageView
+        android:layout_width="168dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/buttonshape2"
+        />
+
+    <TextView
+        android:id="@+id/txt_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="9dp"
+        android:text="Parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/button_shape"
+        android:orientation="vertical" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginRight="40sp"
+        android:text="JuliaRobert90@gmail.com"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/button_shape"
+        android:orientation="vertical" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="40sp"
+        android:text="Julia"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/button_shape"
+        android:orientation="vertical" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginRight="40sp"
+        android:text="27-03-1999"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/button_shape"
+        android:orientation="vertical" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginRight="40sp"
+        android:text="Hi, I'm Julia. I have 2 dogs now amd I  neeed someone who can take care of my dogs, because i have to work (3 weeks)"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="620dp"
+        android:width="325dp"
+        android:background="@drawable/buttonshape2"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="home"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/balik"
+        android:onClick="balik"/>
+
+
+</FrameLayout>
+

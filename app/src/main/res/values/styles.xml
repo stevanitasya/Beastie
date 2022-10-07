@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Beastie" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorSecondary">@color/white_brown</item>
+        <item name="colorSecondaryVariant">@color/brown_6d</item>
+    </style>
+</resources>

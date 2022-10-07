@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="#F3C6C8">
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="hi human"
+        android:textColor="#6D684D4C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/txt_a"/>
+
+    <TextView
+        android:id="@+id/txt_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="do you want to login or register"
+        android:textColor="#684D4C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonregister"
+        android:layout_width="340dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/txt_b"
+        android:layout_marginTop="50dp"
+        android:width="325dp"
+        android:background="@drawable/button_shape"
+        android:onClick="registerP"
+        android:text="Register"
+        android:textColor="@color/brown"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonregister"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="or"
+        android:textSize="20sp"
+        android:textColor="@color/brown"
+        android:textStyle="bold"
+        android:id="@+id/or"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="340dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/or"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="25dp"
+        android:width="325dp"
+        android:background="@drawable/button_shape"
+        android:onClick="loginp"
+        android:text="Login"
+        android:textColor="@color/brown"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="-40dp"
+        android:src="@drawable/logo_2" />
+</RelativeLayout>

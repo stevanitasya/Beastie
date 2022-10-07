@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".photoprofile"
+    android:background="#F3C6C8">
+
+    <TextView
+        android:id="@+id/human"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="hi human."
+        android:textColor="@color/brown"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Everything is Ready"
+        android:textColor="#6D684D4C"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/pppf"
+        android:layout_width="212dp"
+        android:layout_height="239dp"
+        android:layout_below="@id/ready"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ppp" />
+
+    <TextView
+        android:id="@+id/choosepp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:text="Choose Your Profile Picture"
+        android:textColor="@color/brown"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/loginparent"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/choosepp"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="197dp"
+        android:width="325dp"
+        android:background="@drawable/selanjutnya" />
+
+
+</RelativeLayout>
