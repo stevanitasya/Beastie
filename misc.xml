@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/drawable/button_shape.xml" value="0.1475" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/drawable/buttonshape2.xml" value="0.155" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/chatjennie.xml" value="0.25" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/fragment_d_m.xml" value="0.22" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/fragment_home.xml" value="0.21" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/fragment_location.xml" value="0.25" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/fragment_people.xml" value="0.25" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/homepage.xml" value="0.21" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/login.xml" value="0.21" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/loginp.xml" value="0.21" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/loginpf.xml" value="0.25" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/nav.xml" value="0.25" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/otp.xml" value="0.1358695652173913" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/otpp.xml" value="0.1358695652173913" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/otppf.xml" value="0.25" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/photoprofile.xml" value="0.22" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/profilepf.xml" value="0.25" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/profilepr.xml" value="0.2" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/register.xml" value="0.25" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/registerp.xml" value="0.21" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/layout/registerpf.xml" value="0.21" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/menu/bottom_nav_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/kuliah/Matkul semester 4/SE/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
